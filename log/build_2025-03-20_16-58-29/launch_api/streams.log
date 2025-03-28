@@ -1,0 +1,21 @@
+[1.862s] Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_else/launch_api': PYTHONPATH=/home/arsen/roarm_ws_em0/build/launch_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_api build --build-base /home/arsen/roarm_ws_em0/build/launch_api/build install --record /home/arsen/roarm_ws_em0/build/launch_api/install.log --single-version-externally-managed install_data
+[2.430s] running egg_info
+[2.431s] writing ../../../build/launch_api/launch_api.egg-info/PKG-INFO
+[2.431s] writing dependency_links to ../../../build/launch_api/launch_api.egg-info/dependency_links.txt
+[2.431s] writing entry points to ../../../build/launch_api/launch_api.egg-info/entry_points.txt
+[2.432s] writing requirements to ../../../build/launch_api/launch_api.egg-info/requires.txt
+[2.432s] writing top-level names to ../../../build/launch_api/launch_api.egg-info/top_level.txt
+[2.435s] reading manifest file '../../../build/launch_api/launch_api.egg-info/SOURCES.txt'
+[2.435s] adding license file 'LICENSE'
+[2.437s] writing manifest file '../../../build/launch_api/launch_api.egg-info/SOURCES.txt'
+[2.437s] running build
+[2.437s] running build_py
+[2.439s] running install
+[2.439s] running install_lib
+[2.442s] running install_data
+[2.442s] running install_egg_info
+[2.445s] removing '/home/arsen/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api-0.0.0-py3.10.egg-info' (and everything under it)
+[2.446s] Copying ../../../build/launch_api/launch_api.egg-info to /home/arsen/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api-0.0.0-py3.10.egg-info
+[2.447s] running install_scripts
+[2.479s] writing list of installed files to '/home/arsen/roarm_ws_em0/build/launch_api/install.log'
+[2.518s] Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_else/launch_api' returned '0': PYTHONPATH=/home/arsen/roarm_ws_em0/build/launch_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_api build --build-base /home/arsen/roarm_ws_em0/build/launch_api/build install --record /home/arsen/roarm_ws_em0/build/launch_api/install.log --single-version-externally-managed install_data

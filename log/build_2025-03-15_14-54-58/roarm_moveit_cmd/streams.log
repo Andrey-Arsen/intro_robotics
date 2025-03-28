@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd': CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/lib:/home/arsen/roarm_ws_em0/install/moveit_servo/lib:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_moveit_cmd -- -j8 -l8
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target getposecmd_tf2[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target getposecmd[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target movecirclecmd[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target webappcontrol[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target keyboardcontrol[0m
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target movepointcmd[0m
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target setgrippercmd[0m
+[0.104s] [ 14%] Built target getposecmd_tf2
+[0.111s] [ 28%] Built target webappcontrol
+[0.115s] [ 42%] Built target movecirclecmd
+[0.118s] [ 64%] Built target keyboardcontrol
+[0.118s] [ 71%] Built target setgrippercmd
+[0.118s] [ 85%] Built target getposecmd
+[0.124s] [100%] Built target movepointcmd
+[0.135s] Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd' returned '0': CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/lib:/home/arsen/roarm_ws_em0/install/moveit_servo/lib:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_moveit_cmd -- -j8 -l8
+[0.137s] Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd': CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/lib:/home/arsen/roarm_ws_em0/install/moveit_servo/lib:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_moveit_cmd
+[0.144s] -- Install configuration: "Release"
+[0.144s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd
+[0.144s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd_tf2
+[0.145s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/keyboardcontrol
+[0.145s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movepointcmd
+[0.145s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movecirclecmd
+[0.146s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/webappcontrol
+[0.146s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/setgrippercmd
+[0.146s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/launch
+[0.146s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/launch/command_control.launch.py
+[0.146s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/config
+[0.147s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/config/command_control.rviz
+[0.147s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/ament_index/resource_index/package_run_dependencies/roarm_moveit_cmd
+[0.147s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/ament_index/resource_index/parent_prefix_path/roarm_moveit_cmd
+[0.147s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.sh
+[0.147s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.dsv
+[0.147s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.sh
+[0.147s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.dsv
+[0.147s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.bash
+[0.148s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.sh
+[0.148s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.zsh
+[0.148s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.dsv
+[0.148s] -- Installing: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv
+[0.148s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/ament_index/resource_index/packages/roarm_moveit_cmd
+[0.148s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.148s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.148s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig.cmake
+[0.148s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig-version.cmake
+[0.148s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.xml
+[0.150s] Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd' returned '0': CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/lib:/home/arsen/roarm_ws_em0/install/moveit_servo/lib:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_moveit_cmd

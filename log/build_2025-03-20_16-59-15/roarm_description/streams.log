@@ -1,0 +1,35 @@
+[0.060s] Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_description -- -j8 -l8
+[1.083s] Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_description -- -j8 -l8
+[1.086s] Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_description
+[1.102s] -- Install configuration: ""
+[1.108s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/config
+[1.112s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/config/roarm_description.rviz
+[1.114s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/config/joint_names_roarm.yaml
+[1.115s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/launch
+[1.116s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/launch/display.launch.py
+[1.116s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes
+[1.116s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes/gripper_link.STL
+[1.117s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes/link2.STL
+[1.117s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes/base_link.STL
+[1.118s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes/link3.STL
+[1.118s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes/link1.STL
+[1.118s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/urdf
+[1.119s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/urdf/roarm_description.csv
+[1.119s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/urdf/roarm_description_web_app.urdf
+[1.119s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/urdf/roarm_description.urdf
+[1.119s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/ament_index/resource_index/package_run_dependencies/roarm_description
+[1.119s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/ament_index/resource_index/parent_prefix_path/roarm_description
+[1.120s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/environment/ament_prefix_path.sh
+[1.122s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/environment/ament_prefix_path.dsv
+[1.122s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/environment/path.sh
+[1.123s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/environment/path.dsv
+[1.123s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/local_setup.bash
+[1.123s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/local_setup.sh
+[1.124s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/local_setup.zsh
+[1.124s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/local_setup.dsv
+[1.124s] -- Installing: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.dsv
+[1.130s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/ament_index/resource_index/packages/roarm_description
+[1.130s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/cmake/roarm_descriptionConfig.cmake
+[1.131s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/cmake/roarm_descriptionConfig-version.cmake
+[1.131s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.xml
+[1.217s] Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_description

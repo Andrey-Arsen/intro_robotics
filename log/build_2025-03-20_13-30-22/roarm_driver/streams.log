@@ -1,0 +1,25 @@
+[1.166s] Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver': PYTHONPATH=/home/arsen/roarm_ws_em0/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_driver build --build-base /home/arsen/roarm_ws_em0/build/roarm_driver/build install --record /home/arsen/roarm_ws_em0/build/roarm_driver/install.log --single-version-externally-managed install_data
+[1.490s] running egg_info
+[1.490s] writing ../../../build/roarm_driver/roarm_driver.egg-info/PKG-INFO
+[1.491s] writing dependency_links to ../../../build/roarm_driver/roarm_driver.egg-info/dependency_links.txt
+[1.491s] writing entry points to ../../../build/roarm_driver/roarm_driver.egg-info/entry_points.txt
+[1.491s] writing requirements to ../../../build/roarm_driver/roarm_driver.egg-info/requires.txt
+[1.491s] writing top-level names to ../../../build/roarm_driver/roarm_driver.egg-info/top_level.txt
+[1.494s] reading manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[1.495s] writing manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[1.495s] running build
+[1.495s] running build_py
+[1.495s] copying roarm_driver/roarm_driver.py -> /home/arsen/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver
+[1.496s] running install
+[1.496s] running install_lib
+[1.497s] copying /home/arsen/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver/roarm_driver.py -> /home/arsen/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver
+[1.498s] byte-compiling /home/arsen/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver/roarm_driver.py to roarm_driver.cpython-310.pyc
+[1.500s] running install_data
+[1.500s] running install_egg_info
+[1.502s] removing '/home/arsen/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[1.503s] Copying ../../../build/roarm_driver/roarm_driver.egg-info to /home/arsen/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver-0.0.0-py3.10.egg-info
+[1.503s] running install_scripts
+[1.529s] Installing joint_state script to /home/arsen/roarm_ws_em0/install/roarm_driver/lib/roarm_driver
+[1.530s] Installing roarm_driver script to /home/arsen/roarm_ws_em0/install/roarm_driver/lib/roarm_driver
+[1.530s] writing list of installed files to '/home/arsen/roarm_ws_em0/build/roarm_driver/install.log'
+[1.563s] Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver' returned '0': PYTHONPATH=/home/arsen/roarm_ws_em0/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_driver build --build-base /home/arsen/roarm_ws_em0/build/roarm_driver/build install --record /home/arsen/roarm_ws_em0/build/roarm_driver/install.log --single-version-externally-managed install_data

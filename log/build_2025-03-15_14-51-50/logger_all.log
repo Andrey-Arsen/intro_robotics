@@ -1,0 +1,1202 @@
+[0.097s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.097s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78cfe6559900>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78cfe66627d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78cfe66627d0>>, mixin_verb=('build',))
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.246s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arsen/roarm_ws_em0'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/launch_api) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/launch_api) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/launch_api) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/launch_api) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/launch_api) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/launch_api) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/launch_api) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/launch_api) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/launch_api) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_else/launch_api' with type 'ros.ament_python' and name 'launch_api'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_cpp) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_cpp) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_else/ros2web-ros2/examples/ros2web_example_py' with type 'ros.ament_python' and name 'ros2web_example_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_else/ros2web-ros2/ros2web' with type 'ros.ament_python' and name 'ros2web'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_else/ros2web-ros2/ros2web_interfaces' with type 'ros.ament_cmake' and name 'ros2web_interfaces'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_else/ros2web_app/examples/ros2web_widgets' with type 'ros.ament_python' and name 'ros2web_widgets'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/ros2web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/ros2web_app) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/ros2web_app) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/ros2web_app) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/ros2web_app) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/ros2web_app) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/ros2web_app) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/ros2web_app) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/ros2web_app) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_else/ros2web_app/ros2web_app' with type 'ros.ament_python' and name 'ros2web_app'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/moveit_servo) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/moveit_servo) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/moveit_servo) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/moveit_servo) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/moveit_servo) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/moveit_servo) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/moveit_servo) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/moveit_servo) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/moveit_servo) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_main/moveit_servo' with type 'ros.ament_cmake' and name 'moveit_servo'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_description) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_description) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_description) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_description) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_description) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_description) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_description) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_description) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_main/roarm_description' with type 'ros.ament_cmake' and name 'roarm_description'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_driver) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_driver) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_driver) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_driver) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_driver) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_driver) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_driver) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_driver) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_main/roarm_driver' with type 'ros.ament_python' and name 'roarm_driver'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_main/roarm_moveit' with type 'ros.ament_cmake' and name 'roarm_moveit'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_cmd) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_cmd) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_cmd) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_cmd) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_cmd) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_cmd) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_cmd) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_cmd) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_cmd) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_main/roarm_moveit_cmd' with type 'ros.ament_cmake' and name 'roarm_moveit_cmd'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_main/roarm_moveit_ikfast_plugins' with type 'ros.ament_cmake' and name 'roarm_moveit_ikfast_plugins'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_web_app) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_web_app) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_web_app) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_web_app) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_web_app) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_web_app) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_web_app) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_main/roarm_web_app) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_main/roarm_web_app' with type 'ros.ament_python' and name 'roarm_web_app'
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.317s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arsen/ros2_ws/install
+[0.318s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'launch_api' build argument 'cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'launch_api' build argument 'cmake_target' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'launch_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'launch_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'launch_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'launch_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'launch_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'launch_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'launch_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.362s] DEBUG:colcon.colcon_core.verb:Building package 'launch_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/launch_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/launch_api', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_else/launch_api', 'symlink_install': False, 'test_result_base': None}
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_servo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/moveit_servo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/moveit_servo', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo', 'symlink_install': False, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'roarm_description' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'roarm_description' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'roarm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'roarm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'roarm_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'roarm_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'roarm_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'roarm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'roarm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'roarm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/roarm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/roarm_description', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description', 'symlink_install': False, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'roarm_driver' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_driver' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'roarm_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/roarm_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/roarm_driver', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver', 'symlink_install': False, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_ikfast_plugins' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_ikfast_plugins' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_ikfast_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_ikfast_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_ikfast_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_ikfast_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_ikfast_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_ikfast_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_ikfast_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'roarm_moveit_ikfast_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'ros2web_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'ros2web_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'ros2web_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ros2web_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ros2web_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ros2web_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ros2web_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ros2web_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ros2web_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'ros2web_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/ros2web_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/ros2web_interfaces', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'roarm_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/roarm_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/roarm_moveit', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ros2web' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ros2web' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ros2web' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ros2web' build argument 'cmake_clean_cache' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web' build argument 'cmake_clean_first' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web' build argument 'cmake_force_configure' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web' build argument 'ament_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web' build argument 'catkin_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.366s] DEBUG:colcon.colcon_core.verb:Building package 'ros2web' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/ros2web', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/ros2web', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web', 'symlink_install': False, 'test_result_base': None}
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_cmd' build argument 'cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_cmd' build argument 'cmake_target' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_cmd' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_cmd' build argument 'cmake_clean_cache' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_cmd' build argument 'cmake_clean_first' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_cmd' build argument 'cmake_force_configure' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_cmd' build argument 'ament_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_cmd' build argument 'catkin_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'roarm_moveit_cmd' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.366s] DEBUG:colcon.colcon_core.verb:Building package 'roarm_moveit_cmd' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd', 'symlink_install': False, 'test_result_base': None}
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web_app' build argument 'cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web_app' build argument 'cmake_target' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web_app' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web_app' build argument 'cmake_clean_cache' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web_app' build argument 'cmake_clean_first' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ros2web_app' build argument 'cmake_force_configure' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_app' build argument 'ament_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_app' build argument 'catkin_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_app' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.367s] DEBUG:colcon.colcon_core.verb:Building package 'ros2web_app' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/ros2web_app', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/ros2web_app', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app', 'symlink_install': False, 'test_result_base': None}
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_example_py' build argument 'cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_example_py' build argument 'cmake_target' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_example_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_example_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_example_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_example_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_example_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_example_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ros2web_example_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.367s] DEBUG:colcon.colcon_core.verb:Building package 'ros2web_example_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/ros2web_example_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/ros2web_example_py', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py', 'symlink_install': False, 'test_result_base': None}
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'roarm_web_app' build argument 'cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'roarm_web_app' build argument 'cmake_target' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'roarm_web_app' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'roarm_web_app' build argument 'cmake_clean_cache' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'roarm_web_app' build argument 'cmake_clean_first' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'roarm_web_app' build argument 'cmake_force_configure' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'roarm_web_app' build argument 'ament_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'roarm_web_app' build argument 'catkin_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'roarm_web_app' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.368s] DEBUG:colcon.colcon_core.verb:Building package 'roarm_web_app' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/roarm_web_app', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/roarm_web_app', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app', 'symlink_install': False, 'test_result_base': None}
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'ros2web_widgets' build argument 'cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'ros2web_widgets' build argument 'cmake_target' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'ros2web_widgets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'ros2web_widgets' build argument 'cmake_clean_cache' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'ros2web_widgets' build argument 'cmake_clean_first' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'ros2web_widgets' build argument 'cmake_force_configure' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'ros2web_widgets' build argument 'ament_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'ros2web_widgets' build argument 'catkin_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'ros2web_widgets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.368s] DEBUG:colcon.colcon_core.verb:Building package 'ros2web_widgets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arsen/roarm_ws_em0/build/ros2web_widgets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arsen/roarm_ws_em0/install/ros2web_widgets', 'merge_install': False, 'path': '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets', 'symlink_install': False, 'test_result_base': None}
+[0.368s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.369s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.369s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces' with build type 'ament_cmake'
+[0.369s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces'
+[0.371s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description' with build type 'ament_cmake'
+[0.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description'
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo' with build type 'ament_cmake'
+[0.378s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo'
+[0.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.381s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_else/launch_api' with build type 'ament_python'
+[0.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_api', 'ament_prefix_path')
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/hook/ament_prefix_path.ps1'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/hook/ament_prefix_path.dsv'
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/hook/ament_prefix_path.sh'
+[0.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver' with build type 'ament_python'
+[0.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_driver', 'ament_prefix_path')
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/hook/ament_prefix_path.ps1'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/hook/ament_prefix_path.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/hook/ament_prefix_path.sh'
+[0.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins' with build type 'ament_cmake'
+[0.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins'
+[0.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/ros2web_interfaces': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/ros2web_interfaces -- -j8 -l8
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_description': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_description -- -j8 -l8
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo -DCMAKE_INSTALL_PREFIX=/home/arsen/roarm_ws_em0/install/moveit_servo
+[0.665s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arsen/roarm_ws_em0/src/roarm_else/launch_api'
+[0.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.918s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver'
+[0.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins -DCMAKE_INSTALL_PREFIX=/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins
+[0.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_description -- -j8 -l8
+[0.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_description': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_description
+[0.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm_description)
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_description
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description' for CMake module files
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description' for CMake config files
+[0.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_description', 'cmake_prefix_path')
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/hook/cmake_prefix_path.ps1'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/hook/cmake_prefix_path.dsv'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/hook/cmake_prefix_path.sh'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description/bin'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description/lib/pkgconfig/roarm_description.pc'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description/lib/python3.10/site-packages'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description/bin'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.sh'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.bash'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.zsh'
+[0.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/roarm_description/share/colcon-core/packages/roarm_description)
+[0.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm_description)
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description' for CMake module files
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description' for CMake config files
+[0.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_description', 'cmake_prefix_path')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/hook/cmake_prefix_path.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/hook/cmake_prefix_path.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/hook/cmake_prefix_path.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description/bin'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description/lib/pkgconfig/roarm_description.pc'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description/lib/python3.10/site-packages'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_description/bin'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.sh'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.bash'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_description/share/roarm_description/package.zsh'
+[0.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/roarm_description/share/colcon-core/packages/roarm_description)
+[0.980s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit' with build type 'ament_cmake'
+[0.981s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit'
+[0.981s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit -DCMAKE_INSTALL_PREFIX=/home/arsen/roarm_ws_em0/install/roarm_moveit
+[1.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_else/launch_api': PYTHONPATH=/home/arsen/roarm_ws_em0/build/launch_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_api build --build-base /home/arsen/roarm_ws_em0/build/launch_api/build install --record /home/arsen/roarm_ws_em0/build/launch_api/install.log --single-version-externally-managed install_data
+[1.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver': PYTHONPATH=/home/arsen/roarm_ws_em0/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_driver build --build-base /home/arsen/roarm_ws_em0/build/roarm_driver/build install --record /home/arsen/roarm_ws_em0/build/roarm_driver/install.log --single-version-externally-managed install_data
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/launch_api' for CMake module files
+[1.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_else/launch_api' returned '0': PYTHONPATH=/home/arsen/roarm_ws_em0/build/launch_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_api build --build-base /home/arsen/roarm_ws_em0/build/launch_api/build install --record /home/arsen/roarm_ws_em0/build/launch_api/install.log --single-version-externally-managed install_data
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/launch_api' for CMake config files
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/launch_api/lib'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/launch_api/bin'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/launch_api/lib/pkgconfig/launch_api.pc'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages'
+[1.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_api', 'pythonpath')
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/hook/pythonpath.ps1'
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/hook/pythonpath.dsv'
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/hook/pythonpath.sh'
+[1.986s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/launch_api/bin'
+[1.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_api)
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/package.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/package.dsv'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/package.sh'
+[1.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/package.bash'
+[1.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/launch_api/share/launch_api/package.zsh'
+[1.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/launch_api/share/colcon-core/packages/launch_api)
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_driver' for CMake module files
+[2.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver' returned '0': PYTHONPATH=/home/arsen/roarm_ws_em0/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_driver build --build-base /home/arsen/roarm_ws_em0/build/roarm_driver/build install --record /home/arsen/roarm_ws_em0/build/roarm_driver/install.log --single-version-externally-managed install_data
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_driver' for CMake config files
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_driver/lib'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_driver/bin'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_driver/lib/pkgconfig/roarm_driver.pc'
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages'
+[2.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_driver', 'pythonpath')
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/hook/pythonpath.ps1'
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/hook/pythonpath.dsv'
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/hook/pythonpath.sh'
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_driver/bin'
+[2.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm_driver)
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/package.ps1'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/package.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/package.sh'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/package.bash'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_driver/share/roarm_driver/package.zsh'
+[2.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/roarm_driver/share/colcon-core/packages/roarm_driver)
+[3.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit -DCMAKE_INSTALL_PREFIX=/home/arsen/roarm_ws_em0/install/roarm_moveit
+[3.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_moveit -- -j8 -l8
+[3.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo -DCMAKE_INSTALL_PREFIX=/home/arsen/roarm_ws_em0/install/moveit_servo
+[3.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/moveit_servo -- -j8 -l8
+[3.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins' returned '0': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins -DCMAKE_INSTALL_PREFIX=/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins
+[3.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins -- -j8 -l8
+[14.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_moveit -- -j8 -l8
+[14.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_moveit
+[14.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm_moveit)
+[14.906s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit' for CMake module files
+[14.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_moveit
+[14.907s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit' for CMake config files
+[14.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_moveit', 'cmake_prefix_path')
+[14.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/cmake_prefix_path.ps1'
+[14.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/cmake_prefix_path.dsv'
+[14.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/cmake_prefix_path.sh'
+[14.911s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit/lib'
+[14.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_moveit', 'ld_library_path_lib')
+[14.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/ld_library_path_lib.ps1'
+[14.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/ld_library_path_lib.dsv'
+[14.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/ld_library_path_lib.sh'
+[14.913s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit/bin'
+[14.913s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit/lib/pkgconfig/roarm_moveit.pc'
+[14.913s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit/lib/python3.10/site-packages'
+[14.914s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit/bin'
+[14.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.ps1'
+[14.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.dsv'
+[14.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.sh'
+[14.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.bash'
+[14.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.zsh'
+[14.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/roarm_moveit/share/colcon-core/packages/roarm_moveit)
+[14.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm_moveit)
+[14.919s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit' for CMake module files
+[14.920s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit' for CMake config files
+[14.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_moveit', 'cmake_prefix_path')
+[14.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/cmake_prefix_path.ps1'
+[14.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/cmake_prefix_path.dsv'
+[14.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/cmake_prefix_path.sh'
+[14.923s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit/lib'
+[14.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_moveit', 'ld_library_path_lib')
+[14.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/ld_library_path_lib.ps1'
+[14.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/ld_library_path_lib.dsv'
+[14.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/hook/ld_library_path_lib.sh'
+[14.926s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit/bin'
+[14.926s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit/lib/pkgconfig/roarm_moveit.pc'
+[14.926s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit/lib/python3.10/site-packages'
+[14.926s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit/bin'
+[14.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.ps1'
+[14.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.dsv'
+[14.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.sh'
+[14.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.bash'
+[14.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.zsh'
+[14.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/roarm_moveit/share/colcon-core/packages/roarm_moveit)
+[17.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/ros2web_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/ros2web_interfaces -- -j8 -l8
+[17.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/ros2web_interfaces': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/ros2web_interfaces
+[17.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2web_interfaces)
+[17.861s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces' for CMake module files
+[17.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/ros2web_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/ros2web_interfaces
+[17.862s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces' for CMake config files
+[17.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web_interfaces', 'cmake_prefix_path')
+[17.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/cmake_prefix_path.ps1'
+[17.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/cmake_prefix_path.dsv'
+[17.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/cmake_prefix_path.sh'
+[17.864s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib'
+[17.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web_interfaces', 'ld_library_path_lib')
+[17.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/ld_library_path_lib.ps1'
+[17.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/ld_library_path_lib.dsv'
+[17.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/ld_library_path_lib.sh'
+[17.865s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/bin'
+[17.865s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/pkgconfig/ros2web_interfaces.pc'
+[17.866s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/python3.10/site-packages'
+[17.866s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/bin'
+[17.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.ps1'
+[17.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.dsv'
+[17.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.sh'
+[17.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.bash'
+[17.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.zsh'
+[17.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/colcon-core/packages/ros2web_interfaces)
+[17.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2web_interfaces)
+[17.869s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces' for CMake module files
+[17.869s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces' for CMake config files
+[17.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web_interfaces', 'cmake_prefix_path')
+[17.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/cmake_prefix_path.ps1'
+[17.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/cmake_prefix_path.dsv'
+[17.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/cmake_prefix_path.sh'
+[17.871s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib'
+[17.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web_interfaces', 'ld_library_path_lib')
+[17.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/ld_library_path_lib.ps1'
+[17.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/ld_library_path_lib.dsv'
+[17.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/hook/ld_library_path_lib.sh'
+[17.872s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/bin'
+[17.873s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/pkgconfig/ros2web_interfaces.pc'
+[17.873s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/python3.10/site-packages'
+[17.873s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/bin'
+[17.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.ps1'
+[17.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.dsv'
+[17.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.sh'
+[17.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.bash'
+[17.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.zsh'
+[17.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/colcon-core/packages/ros2web_interfaces)
+[17.876s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web' with build type 'ament_python'
+[17.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web', 'ament_prefix_path')
+[17.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/hook/ament_prefix_path.ps1'
+[17.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/hook/ament_prefix_path.dsv'
+[17.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/hook/ament_prefix_path.sh'
+[17.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.438s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web'
+[18.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2web build --build-base /home/arsen/roarm_ws_em0/build/ros2web/build install --record /home/arsen/roarm_ws_em0/build/ros2web/install.log --single-version-externally-managed install_data
+[19.719s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web' for CMake module files
+[19.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2web build --build-base /home/arsen/roarm_ws_em0/build/ros2web/build install --record /home/arsen/roarm_ws_em0/build/ros2web/install.log --single-version-externally-managed install_data
+[19.720s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web' for CMake config files
+[19.721s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web/lib'
+[19.721s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web/bin'
+[19.722s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web/lib/pkgconfig/ros2web.pc'
+[19.722s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages'
+[19.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web', 'pythonpath')
+[19.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/hook/pythonpath.ps1'
+[19.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/hook/pythonpath.dsv'
+[19.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/hook/pythonpath.sh'
+[19.724s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web/bin'
+[19.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2web)
+[19.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/package.ps1'
+[19.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/package.dsv'
+[19.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/package.sh'
+[19.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/package.bash'
+[19.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web/share/ros2web/package.zsh'
+[19.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/ros2web/share/colcon-core/packages/ros2web)
+[19.728s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app' with build type 'ament_python'
+[19.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web_app', 'ament_prefix_path')
+[19.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/hook/ament_prefix_path.ps1'
+[19.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/hook/ament_prefix_path.dsv'
+[19.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/hook/ament_prefix_path.sh'
+[19.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.737s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py' with build type 'ament_python'
+[19.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web_example_py', 'ament_prefix_path')
+[19.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/hook/ament_prefix_path.ps1'
+[19.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/hook/ament_prefix_path.dsv'
+[19.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/hook/ament_prefix_path.sh'
+[19.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.080s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app'
+[20.081s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.081s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.458s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py'
+[20.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/ros2web_example_py build --build-base /home/arsen/roarm_ws_em0/build/ros2web_example_py/build install --record /home/arsen/roarm_ws_em0/build/ros2web_example_py/install.log --single-version-externally-managed install_data
+[20.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2web_app build --build-base /home/arsen/roarm_ws_em0/build/ros2web_app/build install --record /home/arsen/roarm_ws_em0/build/ros2web_app/install.log --single-version-externally-managed install_data
+[21.175s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_example_py' for CMake module files
+[21.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/ros2web_example_py build --build-base /home/arsen/roarm_ws_em0/build/ros2web_example_py/build install --record /home/arsen/roarm_ws_em0/build/ros2web_example_py/install.log --single-version-externally-managed install_data
+[21.176s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_example_py' for CMake config files
+[21.176s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_example_py/lib'
+[21.176s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_example_py/bin'
+[21.177s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_example_py/lib/pkgconfig/ros2web_example_py.pc'
+[21.177s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages'
+[21.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web_example_py', 'pythonpath')
+[21.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/hook/pythonpath.ps1'
+[21.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/hook/pythonpath.dsv'
+[21.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/hook/pythonpath.sh'
+[21.178s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_example_py/bin'
+[21.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2web_example_py)
+[21.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/package.ps1'
+[21.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/package.dsv'
+[21.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/package.sh'
+[21.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/package.bash'
+[21.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py/package.zsh'
+[21.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/ros2web_example_py/share/colcon-core/packages/ros2web_example_py)
+[21.195s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_app' for CMake module files
+[21.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2web_app build --build-base /home/arsen/roarm_ws_em0/build/ros2web_app/build install --record /home/arsen/roarm_ws_em0/build/ros2web_app/install.log --single-version-externally-managed install_data
+[21.196s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_app' for CMake config files
+[21.197s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_app/lib'
+[21.197s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_app/bin'
+[21.198s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_app/lib/pkgconfig/ros2web_app.pc'
+[21.198s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages'
+[21.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web_app', 'pythonpath')
+[21.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/hook/pythonpath.ps1'
+[21.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/hook/pythonpath.dsv'
+[21.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/hook/pythonpath.sh'
+[21.200s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_app/bin'
+[21.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2web_app)
+[21.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/package.ps1'
+[21.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/package.dsv'
+[21.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/package.sh'
+[21.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/package.bash'
+[21.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app/package.zsh'
+[21.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/ros2web_app/share/colcon-core/packages/ros2web_app)
+[21.204s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app' with build type 'ament_python'
+[21.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_web_app', 'ament_prefix_path')
+[21.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/hook/ament_prefix_path.ps1'
+[21.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/hook/ament_prefix_path.dsv'
+[21.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/hook/ament_prefix_path.sh'
+[21.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.211s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets' with build type 'ament_python'
+[21.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web_widgets', 'ament_prefix_path')
+[21.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/hook/ament_prefix_path.ps1'
+[21.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/hook/ament_prefix_path.dsv'
+[21.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/hook/ament_prefix_path.sh'
+[21.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.486s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app'
+[21.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.759s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets'
+[21.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web_widgets/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/ros2web_widgets build --build-base /home/arsen/roarm_ws_em0/build/ros2web_widgets/build install --record /home/arsen/roarm_ws_em0/build/ros2web_widgets/install.log --single-version-externally-managed install_data
+[22.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/roarm_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_web_app build --build-base /home/arsen/roarm_ws_em0/build/roarm_web_app/build install --record /home/arsen/roarm_ws_em0/build/roarm_web_app/install.log --single-version-externally-managed install_data
+[22.447s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_widgets' for CMake module files
+[22.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web_widgets/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/ros2web_widgets build --build-base /home/arsen/roarm_ws_em0/build/ros2web_widgets/build install --record /home/arsen/roarm_ws_em0/build/ros2web_widgets/install.log --single-version-externally-managed install_data
+[22.448s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_widgets' for CMake config files
+[22.449s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_widgets/lib'
+[22.449s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_widgets/bin'
+[22.449s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_widgets/lib/pkgconfig/ros2web_widgets.pc'
+[22.449s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages'
+[22.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2web_widgets', 'pythonpath')
+[22.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/hook/pythonpath.ps1'
+[22.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/hook/pythonpath.dsv'
+[22.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/hook/pythonpath.sh'
+[22.451s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/ros2web_widgets/bin'
+[22.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2web_widgets)
+[22.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/package.ps1'
+[22.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/package.dsv'
+[22.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/package.sh'
+[22.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/package.bash'
+[22.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets/package.zsh'
+[22.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/ros2web_widgets/share/colcon-core/packages/ros2web_widgets)
+[22.754s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_web_app' for CMake module files
+[22.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/roarm_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_web_app build --build-base /home/arsen/roarm_ws_em0/build/roarm_web_app/build install --record /home/arsen/roarm_ws_em0/build/roarm_web_app/install.log --single-version-externally-managed install_data
+[22.755s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_web_app' for CMake config files
+[22.756s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_web_app/lib'
+[22.756s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_web_app/bin'
+[22.756s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_web_app/lib/pkgconfig/roarm_web_app.pc'
+[22.757s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages'
+[22.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_web_app', 'pythonpath')
+[22.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/hook/pythonpath.ps1'
+[22.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/hook/pythonpath.dsv'
+[22.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/hook/pythonpath.sh'
+[22.760s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_web_app/bin'
+[22.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm_web_app)
+[22.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/package.ps1'
+[22.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/package.dsv'
+[22.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/package.sh'
+[22.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/package.bash'
+[22.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app/package.zsh'
+[22.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/roarm_web_app/share/colcon-core/packages/roarm_web_app)
+[23.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins' returned '0': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins -- -j8 -l8
+[23.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins
+[23.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm_moveit_ikfast_plugins)
+[23.291s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins' for CMake module files
+[23.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins' returned '0': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_moveit_ikfast_plugins
+[23.291s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins' for CMake config files
+[23.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_moveit_ikfast_plugins', 'cmake_prefix_path')
+[23.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/cmake_prefix_path.ps1'
+[23.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/cmake_prefix_path.dsv'
+[23.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/cmake_prefix_path.sh'
+[23.293s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib'
+[23.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_moveit_ikfast_plugins', 'ld_library_path_lib')
+[23.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/ld_library_path_lib.ps1'
+[23.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/ld_library_path_lib.dsv'
+[23.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/ld_library_path_lib.sh'
+[23.294s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/bin'
+[23.294s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib/pkgconfig/roarm_moveit_ikfast_plugins.pc'
+[23.294s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib/python3.10/site-packages'
+[23.295s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/bin'
+[23.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.ps1'
+[23.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.dsv'
+[23.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.sh'
+[23.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.bash'
+[23.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.zsh'
+[23.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/colcon-core/packages/roarm_moveit_ikfast_plugins)
+[23.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm_moveit_ikfast_plugins)
+[23.297s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins' for CMake module files
+[23.298s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins' for CMake config files
+[23.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_moveit_ikfast_plugins', 'cmake_prefix_path')
+[23.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/cmake_prefix_path.ps1'
+[23.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/cmake_prefix_path.dsv'
+[23.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/cmake_prefix_path.sh'
+[23.299s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib'
+[23.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_moveit_ikfast_plugins', 'ld_library_path_lib')
+[23.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/ld_library_path_lib.ps1'
+[23.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/ld_library_path_lib.dsv'
+[23.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/hook/ld_library_path_lib.sh'
+[23.300s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/bin'
+[23.301s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib/pkgconfig/roarm_moveit_ikfast_plugins.pc'
+[23.301s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib/python3.10/site-packages'
+[23.301s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/bin'
+[23.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.ps1'
+[23.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.dsv'
+[23.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.sh'
+[23.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.bash'
+[23.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.zsh'
+[23.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/colcon-core/packages/roarm_moveit_ikfast_plugins)
+[118.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/moveit_servo -- -j8 -l8
+[118.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/moveit_servo
+[118.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_servo)
+[118.477s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo' for CMake module files
+[118.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/moveit_servo
+[118.478s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo' for CMake config files
+[118.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_servo', 'cmake_prefix_path')
+[118.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/cmake_prefix_path.ps1'
+[118.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/cmake_prefix_path.dsv'
+[118.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/cmake_prefix_path.sh'
+[118.480s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo/lib'
+[118.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_servo', 'ld_library_path_lib')
+[118.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/ld_library_path_lib.ps1'
+[118.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/ld_library_path_lib.dsv'
+[118.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/ld_library_path_lib.sh'
+[118.482s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo/bin'
+[118.482s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo/lib/pkgconfig/moveit_servo.pc'
+[118.483s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo/lib/python3.10/site-packages'
+[118.483s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo/bin'
+[118.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.ps1'
+[118.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.dsv'
+[118.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.sh'
+[118.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.bash'
+[118.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.zsh'
+[118.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/moveit_servo/share/colcon-core/packages/moveit_servo)
+[118.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_servo)
+[118.488s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo' for CMake module files
+[118.489s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo' for CMake config files
+[118.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_servo', 'cmake_prefix_path')
+[118.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/cmake_prefix_path.ps1'
+[118.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/cmake_prefix_path.dsv'
+[118.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/cmake_prefix_path.sh'
+[118.491s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo/lib'
+[118.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_servo', 'ld_library_path_lib')
+[118.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/ld_library_path_lib.ps1'
+[118.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/ld_library_path_lib.dsv'
+[118.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/hook/ld_library_path_lib.sh'
+[118.493s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo/bin'
+[118.493s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo/lib/pkgconfig/moveit_servo.pc'
+[118.493s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo/lib/python3.10/site-packages'
+[118.493s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/moveit_servo/bin'
+[118.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.ps1'
+[118.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.dsv'
+[118.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.sh'
+[118.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.bash'
+[118.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.zsh'
+[118.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/moveit_servo/share/colcon-core/packages/moveit_servo)
+[118.497s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd' with build type 'ament_cmake'
+[118.497s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd'
+[118.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[118.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[118.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/lib:/home/arsen/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd -DCMAKE_INSTALL_PREFIX=/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd
+[121.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/lib:/home/arsen/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd -DCMAKE_INSTALL_PREFIX=/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd
+[121.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/lib:/home/arsen/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_moveit_cmd -- -j8 -l8
+[141.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/lib:/home/arsen/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_moveit_cmd -- -j8 -l8
+[141.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/lib:/home/arsen/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_moveit_cmd
+[141.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm_moveit_cmd)
+[141.389s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd' for CMake module files
+[141.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/lib:/home/arsen/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_moveit_cmd
+[141.390s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd' for CMake config files
+[141.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_moveit_cmd', 'cmake_prefix_path')
+[141.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.ps1'
+[141.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.dsv'
+[141.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.sh'
+[141.392s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib'
+[141.392s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/bin'
+[141.393s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/pkgconfig/roarm_moveit_cmd.pc'
+[141.393s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/python3.10/site-packages'
+[141.393s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/bin'
+[141.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.ps1'
+[141.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv'
+[141.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.sh'
+[141.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.bash'
+[141.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.zsh'
+[141.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/colcon-core/packages/roarm_moveit_cmd)
+[141.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm_moveit_cmd)
+[141.397s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd' for CMake module files
+[141.397s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd' for CMake config files
+[141.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm_moveit_cmd', 'cmake_prefix_path')
+[141.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.ps1'
+[141.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.dsv'
+[141.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.sh'
+[141.398s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib'
+[141.399s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/bin'
+[141.399s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/pkgconfig/roarm_moveit_cmd.pc'
+[141.399s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/lib/python3.10/site-packages'
+[141.399s] Level 1:colcon.colcon_core.environment:checking '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/bin'
+[141.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.ps1'
+[141.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv'
+[141.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.sh'
+[141.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.bash'
+[141.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.zsh'
+[141.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd/share/colcon-core/packages/roarm_moveit_cmd)
+[141.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[141.404s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[141.404s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[141.405s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[141.443s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[141.443s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[141.443s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[141.521s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[141.523s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arsen/roarm_ws_em0/install/local_setup.ps1'
+[141.526s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arsen/roarm_ws_em0/install/_local_setup_util_ps1.py'
+[141.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arsen/roarm_ws_em0/install/setup.ps1'
+[141.533s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arsen/roarm_ws_em0/install/local_setup.sh'
+[141.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arsen/roarm_ws_em0/install/_local_setup_util_sh.py'
+[141.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arsen/roarm_ws_em0/install/setup.sh'
+[141.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arsen/roarm_ws_em0/install/local_setup.bash'
+[141.543s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arsen/roarm_ws_em0/install/setup.bash'
+[141.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arsen/roarm_ws_em0/install/local_setup.zsh'
+[141.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arsen/roarm_ws_em0/install/setup.zsh'

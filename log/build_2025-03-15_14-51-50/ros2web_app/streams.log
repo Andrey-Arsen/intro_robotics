@@ -1,0 +1,112 @@
+[1.127s] Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2web_app build --build-base /home/arsen/roarm_ws_em0/build/ros2web_app/build install --record /home/arsen/roarm_ws_em0/build/ros2web_app/install.log --single-version-externally-managed install_data
+[1.373s] running egg_info
+[1.374s] creating ../../../../build/ros2web_app/ros2web_app.egg-info
+[1.374s] writing ../../../../build/ros2web_app/ros2web_app.egg-info/PKG-INFO
+[1.374s] writing dependency_links to ../../../../build/ros2web_app/ros2web_app.egg-info/dependency_links.txt
+[1.374s] writing entry points to ../../../../build/ros2web_app/ros2web_app.egg-info/entry_points.txt
+[1.374s] writing requirements to ../../../../build/ros2web_app/ros2web_app.egg-info/requires.txt
+[1.375s] writing top-level names to ../../../../build/ros2web_app/ros2web_app.egg-info/top_level.txt
+[1.375s] writing manifest file '../../../../build/ros2web_app/ros2web_app.egg-info/SOURCES.txt'
+[1.380s] reading manifest file '../../../../build/ros2web_app/ros2web_app.egg-info/SOURCES.txt'
+[1.381s] writing manifest file '../../../../build/ros2web_app/ros2web_app.egg-info/SOURCES.txt'
+[1.381s] running build
+[1.381s] running build_py
+[1.381s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build
+[1.381s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib
+[1.381s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app
+[1.382s] copying ros2web_app/__init__.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app
+[1.382s] copying ros2web_app/app.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app
+[1.382s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+[1.382s] copying ros2web_app/handler/web_rtc.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+[1.382s] copying ros2web_app/handler/__init__.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+[1.382s] copying ros2web_app/handler/app.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+[1.382s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate
+[1.383s] copying ros2web_app/boilerplate/__init__.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate
+[1.383s] copying ros2web_app/boilerplate/template.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate
+[1.383s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb
+[1.383s] copying ros2web_app/verb/__init__.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb
+[1.383s] copying ros2web_app/verb/create.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb
+[1.383s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+[1.384s] copying ros2web_app/utilities/__init__.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+[1.384s] copying ros2web_app/utilities/ros_node.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+[1.384s] copying ros2web_app/utilities/yaml.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+[1.384s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+[1.384s] copying ros2web_app/api/__init__.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+[1.385s] copying ros2web_app/api/app_base.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+[1.385s] copying ros2web_app/api/state.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+[1.385s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track
+[1.385s] copying ros2web_app/handler/track/image.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track
+[1.386s] copying ros2web_app/handler/track/__init__.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track
+[1.386s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+[1.386s] copying ros2web_app/utilities/ros/service.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+[1.386s] copying ros2web_app/utilities/ros/__init__.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+[1.386s] copying ros2web_app/utilities/ros/param.py -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+[1.387s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data
+[1.387s] creating /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public
+[1.387s] copying ros2web_app/data/public/index.html -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public
+[1.387s] copying ros2web_app/data/config.yml -> /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data
+[1.388s] running install
+[1.388s] running install_lib
+[1.389s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app
+[1.389s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler
+[1.389s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/web_rtc.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler
+[1.389s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/__init__.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler
+[1.389s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/track
+[1.390s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track/image.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/track
+[1.390s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track/__init__.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/track
+[1.390s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/app.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler
+[1.390s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/boilerplate
+[1.390s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate/__init__.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/boilerplate
+[1.390s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate/template.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/boilerplate
+[1.390s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/__init__.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app
+[1.390s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/verb
+[1.390s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb/__init__.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/verb
+[1.391s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb/create.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/verb
+[1.391s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/data
+[1.391s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/config.yml -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/data
+[1.391s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/data/public
+[1.391s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/index.html -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/data/public
+[1.391s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities
+[1.391s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/__init__.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities
+[1.391s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros
+[1.391s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros/service.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros
+[1.392s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros/__init__.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros
+[1.392s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros/param.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros
+[1.392s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros_node.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities
+[1.392s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/yaml.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities
+[1.392s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api
+[1.392s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api/__init__.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api
+[1.392s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api/app_base.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api
+[1.392s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api/state.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api
+[1.392s] copying /home/arsen/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/app.py -> /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app
+[1.393s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/web_rtc.py to web_rtc.cpython-310.pyc
+[1.393s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/__init__.py to __init__.cpython-310.pyc
+[1.394s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/track/image.py to image.cpython-310.pyc
+[1.394s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/track/__init__.py to __init__.cpython-310.pyc
+[1.394s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/app.py to app.cpython-310.pyc
+[1.395s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/boilerplate/__init__.py to __init__.cpython-310.pyc
+[1.395s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/boilerplate/template.py to template.cpython-310.pyc
+[1.396s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/__init__.py to __init__.cpython-310.pyc
+[1.396s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/verb/__init__.py to __init__.cpython-310.pyc
+[1.396s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/verb/create.py to create.cpython-310.pyc
+[1.396s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/__init__.py to __init__.cpython-310.pyc
+[1.396s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros/service.py to service.cpython-310.pyc
+[1.397s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros/__init__.py to __init__.cpython-310.pyc
+[1.397s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros/param.py to param.cpython-310.pyc
+[1.399s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros_node.py to ros_node.cpython-310.pyc
+[1.399s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/yaml.py to yaml.cpython-310.pyc
+[1.399s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api/__init__.py to __init__.cpython-310.pyc
+[1.399s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api/app_base.py to app_base.cpython-310.pyc
+[1.400s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api/state.py to state.cpython-310.pyc
+[1.401s] byte-compiling /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/app.py to app.cpython-310.pyc
+[1.402s] running install_data
+[1.402s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/share/ament_index
+[1.402s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/share/ament_index/resource_index
+[1.402s] creating /home/arsen/roarm_ws_em0/install/ros2web_app/share/ament_index/resource_index/packages
+[1.402s] copying resource/ros2web_app -> /home/arsen/roarm_ws_em0/install/ros2web_app/share/ament_index/resource_index/packages
+[1.402s] copying package.xml -> /home/arsen/roarm_ws_em0/install/ros2web_app/share/ros2web_app
+[1.403s] running install_egg_info
+[1.404s] Copying ../../../../build/ros2web_app/ros2web_app.egg-info to /home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app-0.0.0-py3.10.egg-info
+[1.405s] running install_scripts
+[1.428s] writing list of installed files to '/home/arsen/roarm_ws_em0/build/ros2web_app/install.log'
+[1.466s] Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2web_app build --build-base /home/arsen/roarm_ws_em0/build/ros2web_app/build install --record /home/arsen/roarm_ws_em0/build/ros2web_app/install.log --single-version-externally-managed install_data

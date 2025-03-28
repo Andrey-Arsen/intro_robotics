@@ -1,0 +1,72 @@
+[0.035s] Invoking command in '/home/arsen/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/moveit_servo -- -j8 -l8
+[0.659s] [  6%] Built target fake_command_publisher
+[0.659s] [ 12%] Built target gtest_main
+[0.659s] [ 18%] Built target gtest
+[0.659s] [ 24%] Built target servo_controller_input
+[0.659s] [ 33%] Built target moveit_servo_lib_parameters
+[0.659s] [ 39%] Built target test_servo_collision
+[0.659s] [ 45%] Built target test_servo_integration
+[0.659s] [ 63%] Built target moveit_servo_lib
+[0.659s] [ 75%] Built target servo_calcs_unit_tests
+[0.660s] [ 75%] Built target servo_node
+[0.660s] [ 81%] Built target pose_tracking
+[0.660s] [ 87%] Built target servo_pose_tracking_demo
+[0.660s] [ 93%] Built target test_servo_pose_tracking
+[0.660s] [100%] Built target servo_node_main
+[0.673s] Invoked command in '/home/arsen/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/moveit_servo -- -j8 -l8
+[0.674s] Invoking command in '/home/arsen/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/moveit_servo
+[0.689s] -- Install configuration: "Release"
+[0.690s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.5
+[0.691s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib.so
+[0.691s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.5
+[0.691s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so
+[0.691s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/lib/libpose_tracking.so
+[0.692s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/lib/libservo_node.so
+[0.692s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/lib/libservo_controller_input.so
+[0.692s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/servo_node_main
+[0.692s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/servo_pose_tracking_demo
+[0.692s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/fake_command_publisher
+[0.692s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include
+[0.692s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo
+[0.692s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/utilities.h
+[0.692s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/status_codes.h
+[0.693s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/make_shared_from_pool.h
+[0.693s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/enforce_limits.hpp
+[0.694s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_server.h
+[0.695s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo.h
+[0.698s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_parameters.h
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/collision_check.h
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/parameter_descriptor_builder.hpp
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_node.h
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_calcs.h
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/include/moveit_servo/pose_tracking.h
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/launch
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/launch/servo_control.launch.py
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/launch/demo.launch.py
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config/roarm_simulated_config.yaml
+[0.699s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config/servo_control.rviz
+[0.700s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config/demo.rviz
+[0.700s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/library_path.sh
+[0.700s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/library_path.dsv
+[0.709s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/package_run_dependencies/moveit_servo
+[0.709s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/parent_prefix_path/moveit_servo
+[0.709s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.sh
+[0.710s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.dsv
+[0.710s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/path.sh
+[0.710s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/path.dsv
+[0.710s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.bash
+[0.712s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.sh
+[0.712s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.zsh
+[0.712s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.dsv
+[0.712s] -- Installing: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.dsv
+[0.712s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/packages/moveit_servo
+[0.712s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/rclcpp_components/moveit_servo
+[0.713s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport.cmake
+[0.713s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport-release.cmake
+[0.717s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_targets-extras.cmake
+[0.717s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.717s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig.cmake
+[0.717s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig-version.cmake
+[0.719s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.xml
+[0.759s] Invoked command in '/home/arsen/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/moveit_servo

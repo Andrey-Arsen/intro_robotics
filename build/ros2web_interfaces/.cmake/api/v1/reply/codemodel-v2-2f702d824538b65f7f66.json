@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cfb84a42c4ad3c6a0d8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ros2web_interfaces__py",
+					"jsonFile" : "directory-ros2web_interfaces__py-6190dfcd8a3bc3361a1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/arsen/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros2web_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros2web_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros2web_interfaces_egg-7a683d136e2c5673b04c.json",
+					"name" : "ament_cmake_python_build_ros2web_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ros2web_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ros2web_interfaces-a0c62036835e0a796520.json",
+					"name" : "ament_cmake_python_copy_ros2web_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces-1848dbebd7ce64245e5b.json",
+					"name" : "ros2web_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__cpp-3c9f70762f09c0ad5e0c.json",
+					"name" : "ros2web_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros2web_interfaces__py::@0510b5e0f4c1520b29db",
+					"jsonFile" : "target-ros2web_interfaces__py-2ca3cce814074459afca.json",
+					"name" : "ros2web_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_generator_c-ab1c2406c3fbf36b6157.json",
+					"name" : "ros2web_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_generator_py-1239dcb6d20d7769f51f.json",
+					"name" : "ros2web_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_typesupport_c-b72386860731fbf7281a.json",
+					"name" : "ros2web_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_typesupport_c__pyext-5c84e5d5ed8af571df77.json",
+					"name" : "ros2web_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_typesupport_cpp-c0c22ff1eb500324f648.json",
+					"name" : "ros2web_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_typesupport_fastrtps_c-c1d6b2654843160c0ea4.json",
+					"name" : "ros2web_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext-53d03addcbc733cbe0f6.json",
+					"name" : "ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_typesupport_fastrtps_cpp-728d5ad74b346b5d7b50.json",
+					"name" : "ros2web_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_typesupport_introspection_c-26ba9b08300a69bfc568.json",
+					"name" : "ros2web_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_typesupport_introspection_c__pyext-9ddfd1956c00b33c1d85.json",
+					"name" : "ros2web_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces__rosidl_typesupport_introspection_cpp-50425b0865e6d813598c.json",
+					"name" : "ros2web_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2web_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2web_interfaces_uninstall-4b2fbc046daf1ca0966d.json",
+					"name" : "ros2web_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1d9c6b491e2c0004f34f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arsen/roarm_ws_em0/build/ros2web_interfaces",
+		"source" : "/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,304 @@
+[0.161s] Invoking command in '/home/arsen/roarm_ws_em0/build/ros2web_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws/install/ros2web_widgets:/home/arsen/roarm_ws/install/ros2web_example_py:/home/arsen/roarm_ws/install/roarm_web_app:/home/arsen/roarm_ws/install/ros2web_app:/home/arsen/roarm_ws/install/ros2web:/home/arsen/roarm_ws/install/roarm_driver:/home/arsen/roarm_ws/install/launch_api:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/ros2web_interfaces -- -j8 -l8
+[0.832s] [  1%] Built target ros2web_interfaces__cpp
+[0.833s] [ 12%] Built target ros2web_interfaces__rosidl_generator_c
+[0.833s] [ 12%] Built target ament_cmake_python_copy_ros2web_interfaces
+[0.833s] [ 24%] Built target ros2web_interfaces__rosidl_typesupport_cpp
+[0.833s] [ 35%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.833s] [ 47%] Built target ros2web_interfaces__rosidl_typesupport_introspection_cpp
+[0.833s] [ 58%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c
+[0.833s] [ 70%] Built target ros2web_interfaces__rosidl_typesupport_c
+[0.834s] [ 81%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c
+[0.834s] [ 81%] Built target ros2web_interfaces
+[0.834s] [ 82%] Built target ros2web_interfaces__py
+[0.834s] [ 93%] Built target ros2web_interfaces__rosidl_generator_py
+[0.834s] [ 95%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.834s] [ 97%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.835s] [100%] Built target ros2web_interfaces__rosidl_typesupport_c__pyext
+[0.835s] running egg_info
+[0.835s] writing ros2web_interfaces.egg-info/PKG-INFO
+[0.835s] writing dependency_links to ros2web_interfaces.egg-info/dependency_links.txt
+[0.835s] writing top-level names to ros2web_interfaces.egg-info/top_level.txt
+[0.835s] reading manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[0.835s] writing manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[0.835s] [100%] Built target ament_cmake_python_build_ros2web_interfaces_egg
+[0.855s] Invoked command in '/home/arsen/roarm_ws_em0/build/ros2web_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws/install/ros2web_widgets:/home/arsen/roarm_ws/install/ros2web_example_py:/home/arsen/roarm_ws/install/roarm_web_app:/home/arsen/roarm_ws/install/ros2web_app:/home/arsen/roarm_ws/install/ros2web:/home/arsen/roarm_ws/install/roarm_driver:/home/arsen/roarm_ws/install/launch_api:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/ros2web_interfaces -- -j8 -l8
+[0.857s] Invoking command in '/home/arsen/roarm_ws_em0/build/ros2web_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws/install/ros2web_widgets:/home/arsen/roarm_ws/install/ros2web_example_py:/home/arsen/roarm_ws/install/roarm_web_app:/home/arsen/roarm_ws/install/ros2web_app:/home/arsen/roarm_ws/install/ros2web:/home/arsen/roarm_ws/install/roarm_driver:/home/arsen/roarm_ws/install/launch_api:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/ros2web_interfaces
+[0.869s] -- Install configuration: ""
+[0.871s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2web_interfaces
+[0.871s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+[0.871s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+[0.872s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/body_part.h
+[0.872s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+[0.872s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__type_support.h
+[0.872s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__struct.h
+[0.872s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__struct.h
+[0.872s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__type_support.h
+[0.873s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__struct.h
+[0.873s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__functions.h
+[0.873s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__functions.c
+[0.873s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__struct.h
+[0.873s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__type_support.h
+[0.873s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__type_support.h
+[0.873s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__functions.h
+[0.873s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__functions.h
+[0.873s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__functions.c
+[0.874s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__functions.c
+[0.874s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__type_support.h
+[0.875s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__struct.h
+[0.875s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__functions.c
+[0.876s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__type_support.h
+[0.876s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__functions.c
+[0.877s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__functions.h
+[0.877s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__functions.c
+[0.877s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__functions.h
+[0.877s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__functions.h
+[0.877s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__struct.h
+[0.878s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/http_status_code.h
+[0.878s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.878s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg.h
+[0.878s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/content_type.h
+[0.878s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_type.h
+[0.878s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_data.h
+[0.878s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+[0.878s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+[0.878s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__struct.h
+[0.879s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__functions.h
+[0.879s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__functions.c
+[0.879s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__functions.h
+[0.879s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__struct.h
+[0.880s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__type_support.h
+[0.880s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__type_support.h
+[0.880s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__functions.c
+[0.880s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/ws.h
+[0.880s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/http.h
+[0.880s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/library_path.sh
+[0.881s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/library_path.dsv
+[0.882s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_generator_c.so
+[0.882s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+[0.882s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+[0.882s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+[0.882s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_fastrtps_c.h
+[0.882s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_fastrtps_c.h
+[0.883s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_fastrtps_c.h
+[0.883s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_fastrtps_c.h
+[0.883s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_fastrtps_c.h
+[0.883s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_fastrtps_c.h
+[0.883s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.883s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+[0.883s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+[0.883s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_fastrtps_c.h
+[0.884s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_fastrtps_c.h
+[0.891s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.892s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+[0.892s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+[0.892s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.892s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+[0.893s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__type_support.c
+[0.893s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_introspection_c.h
+[0.893s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_introspection_c.h
+[0.894s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_introspection_c.h
+[0.894s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__type_support.c
+[0.895s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__type_support.c
+[0.895s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__type_support.c
+[0.895s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__type_support.c
+[0.896s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_introspection_c.h
+[0.896s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_introspection_c.h
+[0.896s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_introspection_c.h
+[0.896s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__type_support.c
+[0.897s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+[0.897s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+[0.897s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__type_support.c
+[0.897s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_introspection_c.h
+[0.897s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__type_support.c
+[0.897s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_introspection_c.h
+[0.900s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_introspection_c.so
+[0.901s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_c.so
+[0.901s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+[0.901s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+[0.901s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_data.hpp
+[0.901s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/body_part.hpp
+[0.901s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.901s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+[0.902s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__builder.hpp
+[0.902s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__builder.hpp
+[0.902s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__struct.hpp
+[0.902s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__traits.hpp
+[0.902s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__struct.hpp
+[0.902s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__traits.hpp
+[0.902s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__struct.hpp
+[0.903s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__builder.hpp
+[0.903s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__type_support.hpp
+[0.903s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__type_support.hpp
+[0.903s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__type_support.hpp
+[0.903s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__builder.hpp
+[0.903s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__traits.hpp
+[0.903s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__type_support.hpp
+[0.903s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__builder.hpp
+[0.904s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__struct.hpp
+[0.904s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__builder.hpp
+[0.904s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__type_support.hpp
+[0.904s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__struct.hpp
+[0.904s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__traits.hpp
+[0.904s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__type_support.hpp
+[0.904s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__traits.hpp
+[0.904s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__traits.hpp
+[0.904s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__struct.hpp
+[0.905s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/http_status_code.hpp
+[0.905s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg.hpp
+[0.905s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_type.hpp
+[0.905s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/content_type.hpp
+[0.905s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+[0.905s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+[0.905s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__type_support.hpp
+[0.906s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__builder.hpp
+[0.906s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__traits.hpp
+[0.906s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__struct.hpp
+[0.906s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__type_support.hpp
+[0.906s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__traits.hpp
+[0.906s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__struct.hpp
+[0.906s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__builder.hpp
+[0.906s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/http.hpp
+[0.906s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/ws.hpp
+[0.907s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+[0.907s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+[0.907s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+[0.907s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_fastrtps_cpp.hpp
+[0.907s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_fastrtps_cpp.hpp
+[0.907s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.907s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/dds_fastrtps
+[0.907s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_fastrtps_cpp.hpp
+[0.907s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_fastrtps_cpp.hpp
+[0.907s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_fastrtps_cpp.hpp
+[0.908s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.908s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+[0.908s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+[0.908s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_fastrtps_cpp.hpp
+[0.908s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/dds_fastrtps
+[0.908s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_fastrtps_cpp.hpp
+[0.908s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.908s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+[0.908s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+[0.909s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+[0.909s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__type_support.cpp
+[0.909s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.909s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__type_support.cpp
+[0.909s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_introspection_cpp.hpp
+[0.909s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_introspection_cpp.hpp
+[0.909s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__type_support.cpp
+[0.909s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_introspection_cpp.hpp
+[0.909s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__type_support.cpp
+[0.910s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__type_support.cpp
+[0.910s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_introspection_cpp.hpp
+[0.910s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__type_support.cpp
+[0.910s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_introspection_cpp.hpp
+[0.910s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+[0.910s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+[0.910s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_introspection_cpp.hpp
+[0.910s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__type_support.cpp
+[0.910s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__type_support.cpp
+[0.911s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_introspection_cpp.hpp
+[0.911s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.911s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_cpp.so
+[0.911s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/pythonpath.sh
+[0.911s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/pythonpath.dsv
+[0.911s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces-0.1.0-py3.10.egg-info
+[0.911s] -- Installing: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.911s] -- Installing: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[0.912s] -- Installing: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[0.912s] -- Installing: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.912s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces
+[0.912s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.912s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_c.c
+[0.912s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/__init__.py
+[0.912s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.913s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg
+[0.913s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_content_type_s.c
+[0.913s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_content_type.py
+[0.914s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_http_status_code_s.c
+[0.914s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/__init__.py
+[0.914s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg.py
+[0.914s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_body_part.py
+[0.914s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_type_s.c
+[0.914s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_data.py
+[0.914s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_body_part_s.c
+[0.914s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_s.c
+[0.914s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_http_status_code.py
+[0.915s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_type.py
+[0.915s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg/_ws_msg_data_s.c
+[0.915s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/libros2web_interfaces__rosidl_generator_py.so
+[0.915s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.915s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.915s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.916s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv
+[0.916s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/_ws.py
+[0.916s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/__init__.py
+[0.916s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/_http_s.c
+[0.916s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/_http.py
+[0.917s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv/_ws_s.c
+[0.930s] Listing '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces'...
+[0.930s] Listing '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/msg'...
+[0.930s] Listing '/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/srv'...
+[0.938s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.939s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.940s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.940s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_generator_py.so
+[0.940s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/BodyPart.idl
+[0.940s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/ContentType.idl
+[0.940s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/HTTPStatusCode.idl
+[0.940s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgData.idl
+[0.941s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgType.idl
+[0.941s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsg.idl
+[0.941s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP.idl
+[0.941s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS.idl
+[0.941s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/BodyPart.msg
+[0.942s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/ContentType.msg
+[0.942s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/HTTPStatusCode.msg
+[0.942s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgData.msg
+[0.942s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgType.msg
+[0.942s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsg.msg
+[0.943s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP.srv
+[0.943s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP_Request.msg
+[0.943s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP_Response.msg
+[0.943s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS.srv
+[0.943s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS_Request.msg
+[0.943s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS_Response.msg
+[0.944s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2web_interfaces
+[0.944s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2web_interfaces
+[0.944s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/ament_prefix_path.sh
+[0.944s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/ament_prefix_path.dsv
+[0.944s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/path.sh
+[0.944s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/path.dsv
+[0.945s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.bash
+[0.945s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.sh
+[0.945s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.zsh
+[0.945s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.dsv
+[0.945s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.dsv
+[0.945s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ament_index/resource_index/packages/ros2web_interfaces
+[0.946s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_cExport.cmake
+[0.946s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.946s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.946s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.946s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.946s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.946s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cExport.cmake
+[0.947s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.947s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_cppExport.cmake
+[0.947s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.947s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.947s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.947s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.948s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cppExport.cmake
+[0.948s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.948s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_pyExport.cmake
+[0.948s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.948s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.948s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.949s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.949s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.949s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.949s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.949s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.950s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfacesConfig.cmake
+[0.950s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfacesConfig-version.cmake
+[0.950s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.xml
+[0.974s] Invoked command in '/home/arsen/roarm_ws_em0/build/ros2web_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws/install/ros2web_widgets:/home/arsen/roarm_ws/install/ros2web_example_py:/home/arsen/roarm_ws/install/roarm_web_app:/home/arsen/roarm_ws/install/ros2web_app:/home/arsen/roarm_ws/install/ros2web:/home/arsen/roarm_ws/install/roarm_driver:/home/arsen/roarm_ws/install/launch_api:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/ros2web_interfaces

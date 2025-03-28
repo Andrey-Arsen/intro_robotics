@@ -1,0 +1,19 @@
+running egg_info
+writing ../../../build/launch_api/launch_api.egg-info/PKG-INFO
+writing dependency_links to ../../../build/launch_api/launch_api.egg-info/dependency_links.txt
+writing entry points to ../../../build/launch_api/launch_api.egg-info/entry_points.txt
+writing requirements to ../../../build/launch_api/launch_api.egg-info/requires.txt
+writing top-level names to ../../../build/launch_api/launch_api.egg-info/top_level.txt
+reading manifest file '../../../build/launch_api/launch_api.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/launch_api/launch_api.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/arsen/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/launch_api/launch_api.egg-info to /home/arsen/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/arsen/roarm_ws_em0/build/launch_api/install.log'

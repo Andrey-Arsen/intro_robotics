@@ -1,0 +1,221 @@
+[0.073s] Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit': CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_moveit -- -j8 -l8
+[0.159s] [  2%] Built target roarm_moveit__cpp
+[0.159s] [ 12%] Built target roarm_moveit__rosidl_generator_c
+[0.176s] [ 12%] Built target ament_cmake_python_copy_roarm_moveit
+[0.204s] [ 23%] Built target roarm_moveit__rosidl_typesupport_fastrtps_cpp
+[0.204s] [ 34%] Built target roarm_moveit__rosidl_typesupport_introspection_cpp
+[0.210s] [ 44%] Built target roarm_moveit__rosidl_typesupport_cpp
+[0.215s] [ 55%] Built target roarm_moveit__rosidl_typesupport_c
+[0.217s] [ 65%] Built target roarm_moveit__rosidl_typesupport_introspection_c
+[0.219s] [ 76%] Built target roarm_moveit__rosidl_typesupport_fastrtps_c
+[0.240s] [ 76%] Built target roarm_moveit
+[0.261s] [ 78%] Built target roarm_moveit__py
+[0.283s] [ 87%] Built target roarm_moveit__rosidl_generator_py
+[0.315s] [ 91%] Built target roarm_moveit__rosidl_typesupport_introspection_c__pyext
+[0.316s] [ 95%] Built target roarm_moveit__rosidl_typesupport_fastrtps_c__pyext
+[0.316s] [100%] Built target roarm_moveit__rosidl_typesupport_c__pyext
+[0.516s] running egg_info
+[0.518s] writing roarm_moveit.egg-info/PKG-INFO
+[0.518s] writing dependency_links to roarm_moveit.egg-info/dependency_links.txt
+[0.518s] writing top-level names to roarm_moveit.egg-info/top_level.txt
+[0.521s] reading manifest file 'roarm_moveit.egg-info/SOURCES.txt'
+[0.522s] writing manifest file 'roarm_moveit.egg-info/SOURCES.txt'
+[0.553s] [100%] Built target ament_cmake_python_build_roarm_moveit_egg
+[0.566s] Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit' returned '0': CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/roarm_moveit -- -j8 -l8
+[0.567s] Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_moveit': CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_moveit
+[0.576s] -- Install configuration: ""
+[0.576s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/ament_index/resource_index/rosidl_interfaces/roarm_moveit
+[0.576s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+[0.576s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg
+[0.576s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_generator_c__visibility_control.h
+[0.576s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+[0.576s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_circle_cmd.h
+[0.576s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+[0.577s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__type_support.h
+[0.577s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__functions.h
+[0.577s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__functions.c
+[0.577s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__functions.h
+[0.577s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__struct.h
+[0.577s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__type_support.h
+[0.577s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__struct.h
+[0.577s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__functions.c
+[0.577s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__functions.h
+[0.577s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__functions.c
+[0.578s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__type_support.h
+[0.578s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__struct.h
+[0.578s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_point_cmd.h
+[0.578s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/get_pose_cmd.h
+[0.578s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/library_path.sh
+[0.578s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/library_path.dsv
+[0.578s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_generator_c.so
+[0.578s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+[0.579s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg
+[0.579s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.579s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+[0.579s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+[0.579s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_fastrtps_c.h
+[0.579s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_fastrtps_c.h
+[0.579s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_fastrtps_c.h
+[0.579s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_fastrtps_c.so
+[0.579s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+[0.580s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg
+[0.580s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.580s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+[0.580s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+[0.580s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__type_support.c
+[0.580s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__type_support.c
+[0.580s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_introspection_c.h
+[0.580s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_introspection_c.h
+[0.580s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_introspection_c.h
+[0.581s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__type_support.c
+[0.581s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_introspection_c.so
+[0.581s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_c.so
+[0.582s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+[0.582s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg
+[0.583s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.583s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+[0.583s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_point_cmd.hpp
+[0.583s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+[0.583s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__type_support.hpp
+[0.584s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__builder.hpp
+[0.584s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__struct.hpp
+[0.585s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__builder.hpp
+[0.585s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__type_support.hpp
+[0.586s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__struct.hpp
+[0.586s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__traits.hpp
+[0.586s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__traits.hpp
+[0.586s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__struct.hpp
+[0.587s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__traits.hpp
+[0.587s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__type_support.hpp
+[0.587s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__builder.hpp
+[0.587s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/get_pose_cmd.hpp
+[0.588s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_circle_cmd.hpp
+[0.588s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+[0.588s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg
+[0.588s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.589s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+[0.589s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+[0.589s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[0.589s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[0.590s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[0.590s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/dds_fastrtps
+[0.590s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_fastrtps_cpp.so
+[0.590s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+[0.591s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+[0.591s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+[0.591s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_introspection_cpp.hpp
+[0.591s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_introspection_cpp.hpp
+[0.592s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_introspection_cpp.hpp
+[0.592s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__type_support.cpp
+[0.592s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__type_support.cpp
+[0.592s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__type_support.cpp
+[0.593s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_introspection_cpp.so
+[0.593s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_cpp.so
+[0.593s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/pythonpath.sh
+[0.593s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/pythonpath.dsv
+[0.593s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit-0.3.0-py3.10.egg-info
+[0.594s] -- Installing: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit-0.3.0-py3.10.egg-info/dependency_links.txt
+[0.594s] -- Installing: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit-0.3.0-py3.10.egg-info/PKG-INFO
+[0.594s] -- Installing: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit-0.3.0-py3.10.egg-info/top_level.txt
+[0.594s] -- Installing: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit-0.3.0-py3.10.egg-info/SOURCES.txt
+[0.595s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit
+[0.595s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.595s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/libroarm_moveit__rosidl_generator_py.so
+[0.595s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.595s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/__init__.py
+[0.596s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_introspection_c.c
+[0.596s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_c.c
+[0.596s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.596s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv
+[0.596s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_get_pose_cmd_s.c
+[0.596s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_move_point_cmd_s.c
+[0.597s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/__init__.py
+[0.597s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_move_circle_cmd.py
+[0.597s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_move_point_cmd.py
+[0.597s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_move_circle_cmd_s.c
+[0.597s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv/_get_pose_cmd.py
+[0.598s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.636s] Listing '/home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit'...
+[0.636s] Listing '/home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/srv'...
+[0.641s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.643s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.644s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.644s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_generator_py.so
+[0.644s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd.idl
+[0.645s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd.idl
+[0.645s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd.idl
+[0.645s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd.srv
+[0.645s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd_Request.msg
+[0.645s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd_Response.msg
+[0.645s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd.srv
+[0.645s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd_Request.msg
+[0.645s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd_Response.msg
+[0.646s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd.srv
+[0.646s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd_Request.msg
+[0.646s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd_Response.msg
+[0.646s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/ament_index/resource_index/package_run_dependencies/roarm_moveit
+[0.646s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/ament_index/resource_index/parent_prefix_path/roarm_moveit
+[0.646s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/ament_prefix_path.sh
+[0.646s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/ament_prefix_path.dsv
+[0.646s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/path.sh
+[0.646s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/path.dsv
+[0.647s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/local_setup.bash
+[0.647s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/local_setup.sh
+[0.647s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/local_setup.zsh
+[0.647s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/local_setup.dsv
+[0.647s] -- Installing: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.dsv
+[0.647s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/ament_index/resource_index/packages/roarm_moveit
+[0.647s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_cExport.cmake
+[0.647s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_cExport-noconfig.cmake
+[0.647s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cExport.cmake
+[0.648s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.648s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cExport.cmake
+[0.648s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.648s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cExport.cmake
+[0.648s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cExport-noconfig.cmake
+[0.648s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_cppExport.cmake
+[0.648s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.648s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.648s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cppExport.cmake
+[0.649s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.649s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cppExport.cmake
+[0.649s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cppExport-noconfig.cmake
+[0.649s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_pyExport.cmake
+[0.649s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_pyExport-noconfig.cmake
+[0.649s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/rosidl_cmake-extras.cmake
+[0.650s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.651s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_libraries-extras.cmake
+[0.651s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_targets-extras.cmake
+[0.651s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.651s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.652s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.652s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveitConfig.cmake
+[0.652s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveitConfig-version.cmake
+[0.652s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.xml
+[0.652s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch
+[0.652s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/command_control_moveit_rviz.launch.py
+[0.653s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/spawn_controllers.launch.py
+[0.653s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/interact.launch.py
+[0.653s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/setup_assistant.launch.py
+[0.653s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/moveit_rviz.launch.py
+[0.654s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/warehouse_db.launch.py
+[0.654s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/interact_moveit_rviz.launch.py
+[0.654s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/static_virtual_joint_tfs.launch.py
+[0.654s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/move_group.launch.py
+[0.654s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/demo.launch.py
+[0.655s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/rsp.launch.py
+[0.655s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config
+[0.655s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/moveit.rviz
+[0.656s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/roarm_description.srdf
+[0.656s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/pilz_cartesian_limits.yaml
+[0.656s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/ros2_controllers.yaml
+[0.656s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/joint_limits.yaml
+[0.657s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/initial_positions.yaml
+[0.657s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/roarm_description.ros2_control.xacro
+[0.657s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/sensors_3d.yaml
+[0.657s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/moveit_controllers.yaml
+[0.658s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/kinematics.yaml
+[0.658s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/roarm_description.urdf.xacro
+[0.658s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/interact.rviz
+[0.658s] -- Up-to-date: /home/arsen/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/.setup_assistant
+[0.658s] Invoked command in '/home/arsen/roarm_ws_em0/build/roarm_moveit' returned '0': CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/roarm_description:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:/home/arsen/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/arsen/roarm_ws_em0/install/roarm_moveit_cmd:/home/arsen/roarm_ws_em0/install/roarm_moveit:/home/arsen/roarm_ws_em0/install/moveit_servo:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arsen/roarm_ws_em0/build/roarm_moveit

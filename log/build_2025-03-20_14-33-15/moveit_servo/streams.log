@@ -1,0 +1,15 @@
+[0.156s] Invoking command in '/home/arsen/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/moveit_servo -- -j8 -l8
+[0.795s] [  6%] Built target gtest_main
+[0.795s] [ 12%] Built target gtest
+[0.795s] [ 18%] Built target fake_command_publisher
+[0.795s] [ 24%] Built target servo_controller_input
+[0.795s] [ 33%] Built target moveit_servo_lib_parameters
+[0.795s] [ 39%] Built target test_servo_integration
+[0.795s] [ 45%] Built target test_servo_collision
+[0.795s] [ 63%] Built target moveit_servo_lib
+[0.795s] [ 69%] Built target pose_tracking
+[0.795s] [ 75%] Built target servo_node
+[0.795s] [ 81%] Built target servo_calcs_unit_tests
+[0.795s] [ 87%] Built target servo_pose_tracking_demo
+[0.795s] [ 93%] Built target test_servo_pose_tracking
+[0.795s] [100%] Built target servo_node_main

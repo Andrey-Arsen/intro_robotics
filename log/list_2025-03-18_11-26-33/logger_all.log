@@ -1,0 +1,529 @@
+[0.271s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/arsen/roarm_ws_em0']
+[0.271s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/arsen/roarm_ws_em0'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x750f08d81390>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x750f08d802b0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x750f08d802b0>>, mixin_verb=('list',))
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.628s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arsen/roarm_ws_em0'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extension 'ros'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extensions ['cmake', 'python']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extension 'cmake'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extension 'python'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extensions ['python_setup_py']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0) by extension 'python_setup_py'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/build) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/build) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/build) ignored
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extension 'ros'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extension 'cmake'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extension 'python'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extensions ['python_setup_py']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/images) by extension 'python_setup_py'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/install) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/install) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/install) ignored
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/log) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/log) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/log) ignored
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extension 'ros'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extensions ['cmake', 'python']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extension 'cmake'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extension 'python'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extensions ['python_setup_py']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src) by extension 'python_setup_py'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extension 'ros'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extensions ['cmake', 'python']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extension 'cmake'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extension 'python'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extensions ['python_setup_py']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else) by extension 'python_setup_py'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/launch_api) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/launch_api) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/launch_api) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/launch_api) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/launch_api) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/launch_api) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/launch_api) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/launch_api) by extensions ['ros']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/launch_api) by extension 'ros'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_else/launch_api' with type 'ros.ament_python' and name 'launch_api'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extension 'ignore_ament_install'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extension 'ros'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extensions ['cmake', 'python']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extension 'cmake'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extension 'python'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extensions ['python_setup_py']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2) by extension 'python_setup_py'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extension 'ros'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extensions ['cmake', 'python']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extension 'cmake'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extension 'python'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extensions ['python_setup_py']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples) by extension 'python_setup_py'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_cpp) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_cpp) ignored
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'ros'
+[0.660s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py' with type 'ros.ament_python' and name 'ros2web_example_py'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web) by extension 'ros'
+[0.662s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web' with type 'ros.ament_python' and name 'ros2web'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'ros'
+[0.664s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces' with type 'ros.ament_cmake' and name 'ros2web_interfaces'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extensions ['colcon_meta']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extension 'ros'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extensions ['cmake', 'python']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extension 'cmake'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extension 'python'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extensions ['python_setup_py']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app) by extension 'python_setup_py'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extension 'ignore_ament_install'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extension 'ros'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extensions ['cmake', 'python']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extension 'cmake'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extension 'python'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extensions ['python_setup_py']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples) by extension 'python_setup_py'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['colcon_pkg']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'colcon_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['colcon_meta']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'colcon_meta'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['ros']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'ros'
+[0.668s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets' with type 'ros.ament_python' and name 'ros2web_widgets'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app) by extension 'colcon_meta'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app) by extensions ['ros']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app) by extension 'ros'
+[0.670s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/ros2web_app' with type 'ros.ament_python' and name 'ros2web_app'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extension 'ros'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extensions ['cmake', 'python']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extension 'cmake'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extension 'python'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extensions ['python_setup_py']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app) by extension 'python_setup_py'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extension 'ignore_ament_install'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extension 'ros'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extensions ['cmake', 'python']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extension 'cmake'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extension 'python'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extensions ['python_setup_py']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src) by extension 'python_setup_py'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extension 'ros'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['cmake', 'python']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extension 'cmake'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extension 'python'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['python_setup_py']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/assets) by extension 'python_setup_py'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extensions ['ignore', 'ignore_ament_install']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extension 'ignore'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extension 'ignore_ament_install'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extensions ['colcon_pkg']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extension 'colcon_pkg'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extensions ['colcon_meta']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extension 'colcon_meta'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extensions ['ros']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extension 'ros'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extensions ['cmake', 'python']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extension 'cmake'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extension 'python'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extensions ['python_setup_py']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components) by extension 'python_setup_py'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['ignore', 'ignore_ament_install']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'ignore'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'ignore_ament_install'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['colcon_pkg']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'colcon_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'colcon_meta'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['ros']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'ros'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['cmake', 'python']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'cmake'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'python'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['python_setup_py']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'python_setup_py'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'ignore'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'ignore_ament_install'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['colcon_pkg']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'colcon_pkg'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['colcon_meta']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'colcon_meta'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['ros']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'ros'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['cmake', 'python']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'cmake'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'python'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['python_setup_py']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'python_setup_py'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['ignore', 'ignore_ament_install']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'ignore'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'ignore_ament_install'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['colcon_pkg']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'colcon_pkg'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['colcon_meta']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'colcon_meta'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['ros']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'ros'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['cmake', 'python']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'cmake'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'python'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['python_setup_py']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'python_setup_py'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'ignore'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'ignore_ament_install'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['colcon_pkg']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'colcon_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['colcon_meta']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['ros']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'ros'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['cmake', 'python']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'cmake'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'python'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['python_setup_py']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'python_setup_py'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'ignore_ament_install'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['colcon_pkg']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'colcon_pkg'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['colcon_meta']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'colcon_meta'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['ros']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'ros'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['cmake', 'python']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'cmake'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'python'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['python_setup_py']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'python_setup_py'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['ignore', 'ignore_ament_install']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['ros']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'ros'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['cmake', 'python']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'cmake'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'python'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['python_setup_py']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'python_setup_py'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'ignore_ament_install'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['colcon_pkg']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'colcon_pkg'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['colcon_meta']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'colcon_meta'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['ros']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'ros'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['cmake', 'python']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'cmake'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'python'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['python_setup_py']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'python_setup_py'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['ignore', 'ignore_ament_install']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'ignore'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'ignore_ament_install'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['colcon_pkg']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'colcon_pkg'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['colcon_meta']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'colcon_meta'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['ros']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'ros'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['cmake', 'python']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'cmake'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'python'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['python_setup_py']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'python_setup_py'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extension 'ignore'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extension 'ignore_ament_install'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['colcon_pkg']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extension 'colcon_pkg'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['colcon_meta']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extension 'colcon_meta'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['ros']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extension 'ros'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['cmake', 'python']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extension 'cmake'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extension 'python'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['python_setup_py']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers) by extension 'python_setup_py'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'ignore'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'ignore_ament_install'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['colcon_pkg']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'colcon_pkg'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['colcon_meta']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'colcon_meta'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['ros']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'ros'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['cmake', 'python']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'cmake'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'python'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['python_setup_py']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'python_setup_py'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'ignore'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'ignore_ament_install'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['colcon_pkg']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'colcon_pkg'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['colcon_meta']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'colcon_meta'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['ros']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'ros'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['cmake', 'python']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'cmake'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'python'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['python_setup_py']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'python_setup_py'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extension 'ignore'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extension 'ignore_ament_install'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['colcon_pkg']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extension 'colcon_pkg'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['colcon_meta']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extension 'colcon_meta'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['ros']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extension 'ros'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['cmake', 'python']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extension 'cmake'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extension 'python'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['python_setup_py']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/routes) by extension 'python_setup_py'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extension 'ignore_ament_install'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['colcon_pkg']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extension 'colcon_pkg'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['colcon_meta']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extension 'colcon_meta'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['ros']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extension 'ros'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['cmake', 'python']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extension 'cmake'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extension 'python'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['python_setup_py']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/styles) by extension 'python_setup_py'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extension 'ignore'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extension 'ignore_ament_install'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['colcon_pkg']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extension 'colcon_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['colcon_meta']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extension 'colcon_meta'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['ros']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extension 'ros'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['cmake', 'python']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extension 'cmake'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extension 'python'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['python_setup_py']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_else/ros2web_app/web_app/src/utils) by extension 'python_setup_py'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extensions ['ignore', 'ignore_ament_install']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extension 'ignore'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extension 'ignore_ament_install'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extensions ['colcon_pkg']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extension 'colcon_pkg'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extensions ['colcon_meta']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extension 'colcon_meta'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extensions ['ros']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extension 'ros'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extensions ['cmake', 'python']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extension 'cmake'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extension 'python'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extensions ['python_setup_py']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main) by extension 'python_setup_py'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo) by extension 'ignore'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo) by extension 'ignore_ament_install'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo) by extensions ['colcon_pkg']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo) by extension 'colcon_pkg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo) by extensions ['colcon_meta']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo) by extension 'colcon_meta'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo) by extensions ['ros']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo) by extension 'ros'
+[0.700s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_main/moveit_servo' with type 'ros.ament_cmake' and name 'moveit_servo'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description) by extension 'ignore'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description) by extension 'ignore_ament_install'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description) by extensions ['colcon_pkg']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description) by extension 'colcon_pkg'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description) by extensions ['colcon_meta']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description) by extension 'colcon_meta'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description) by extensions ['ros']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description) by extension 'ros'
+[0.702s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_description' with type 'ros.ament_cmake' and name 'roarm_description'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver) by extension 'ignore_ament_install'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver) by extensions ['colcon_pkg']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver) by extension 'colcon_pkg'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver) by extensions ['colcon_meta']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver) by extension 'colcon_meta'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver) by extensions ['ros']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver) by extension 'ros'
+[0.704s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_driver' with type 'ros.ament_python' and name 'roarm_driver'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit) by extension 'colcon_pkg'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit) by extensions ['colcon_meta']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit) by extension 'colcon_meta'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit) by extensions ['ros']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit) by extension 'ros'
+[0.707s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit' with type 'ros.ament_cmake' and name 'roarm_moveit'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd) by extension 'ignore_ament_install'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd) by extensions ['colcon_pkg']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd) by extension 'colcon_pkg'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd) by extension 'ros'
+[0.717s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd' with type 'ros.ament_cmake' and name 'roarm_moveit_cmd'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'ros'
+[0.719s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins' with type 'ros.ament_cmake' and name 'roarm_moveit_ikfast_plugins'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app) by extension 'ignore'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app) by extension 'ignore_ament_install'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app) by extensions ['colcon_pkg']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app) by extension 'colcon_pkg'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app) by extensions ['colcon_meta']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app) by extension 'ros'
+[0.724s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arsen/roarm_ws_em0/src/roarm_main/roarm_web_app' with type 'ros.ament_python' and name 'roarm_web_app'
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

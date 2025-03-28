@@ -1,0 +1,20 @@
+[0.813s] Invoking command in '/home/arsen/roarm_ws_em0/build/ros2web_example_py': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/build/ros2web:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arsen/roarm_ws_em0/build/ros2web_example_py/build --no-deps symlink_data --force
+[1.048s] running develop
+[1.202s] running egg_info
+[1.202s] writing ros2web_example_py.egg-info/PKG-INFO
+[1.202s] writing dependency_links to ros2web_example_py.egg-info/dependency_links.txt
+[1.202s] writing entry points to ros2web_example_py.egg-info/entry_points.txt
+[1.202s] writing requirements to ros2web_example_py.egg-info/requires.txt
+[1.203s] writing top-level names to ros2web_example_py.egg-info/top_level.txt
+[1.204s] reading manifest file 'ros2web_example_py.egg-info/SOURCES.txt'
+[1.205s] writing manifest file 'ros2web_example_py.egg-info/SOURCES.txt'
+[1.206s] running build_ext
+[1.206s] Creating /home/arsen/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages/ros2web-example-py.egg-link (link to .)
+[1.207s] Installing api script to /home/arsen/roarm_ws_em0/install/ros2web_example_py/lib/ros2web_example_py
+[1.207s] Installing form script to /home/arsen/roarm_ws_em0/install/ros2web_example_py/lib/ros2web_example_py
+[1.207s] 
+[1.208s] Installed /home/arsen/roarm_ws_em0/build/ros2web_example_py
+[1.208s] running symlink_data
+[1.208s] symbolically linking /home/arsen/roarm_ws_em0/build/ros2web_example_py/resource/ros2web_example_py -> /home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ament_index/resource_index/packages
+[1.208s] symbolically linking /home/arsen/roarm_ws_em0/build/ros2web_example_py/package.xml -> /home/arsen/roarm_ws_em0/install/ros2web_example_py/share/ros2web_example_py
+[1.237s] Invoked command in '/home/arsen/roarm_ws_em0/build/ros2web_example_py' returned '0': AMENT_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/arsen/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/build/ros2web:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/arsen/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arsen/roarm_ws_em0/build/ros2web_example_py/build --no-deps symlink_data --force

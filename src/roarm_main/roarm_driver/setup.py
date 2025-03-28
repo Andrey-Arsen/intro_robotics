@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'roarm_driver = roarm_driver.roarm_driver:main'
+            'roarm_driver = roarm_driver.roarm_driver:main',
+            'joint_state=roarm_driver.joint_state:main',
+            'roarm_driver2=roarm_driver.roarm_driver2:main'
         ],
     },
 )

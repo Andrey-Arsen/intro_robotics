@@ -1,0 +1,20 @@
+[1.010s] Invoking command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web': PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2web build --build-base /home/arsen/roarm_ws_em0/build/ros2web/build install --record /home/arsen/roarm_ws_em0/build/ros2web/install.log --single-version-externally-managed install_data
+[2.171s] running egg_info
+[2.175s] writing ../../../../build/ros2web/ros2web.egg-info/PKG-INFO
+[2.176s] writing dependency_links to ../../../../build/ros2web/ros2web.egg-info/dependency_links.txt
+[2.177s] writing entry points to ../../../../build/ros2web/ros2web.egg-info/entry_points.txt
+[2.178s] writing requirements to ../../../../build/ros2web/ros2web.egg-info/requires.txt
+[2.178s] writing top-level names to ../../../../build/ros2web/ros2web.egg-info/top_level.txt
+[2.187s] reading manifest file '../../../../build/ros2web/ros2web.egg-info/SOURCES.txt'
+[2.192s] writing manifest file '../../../../build/ros2web/ros2web.egg-info/SOURCES.txt'
+[2.193s] running build
+[2.193s] running build_py
+[2.199s] running install
+[2.201s] running install_lib
+[2.209s] running install_data
+[2.210s] running install_egg_info
+[2.218s] removing '/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages/ros2web-0.0.1-py3.10.egg-info' (and everything under it)
+[2.219s] Copying ../../../../build/ros2web/ros2web.egg-info to /home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages/ros2web-0.0.1-py3.10.egg-info
+[2.223s] running install_scripts
+[2.316s] writing list of installed files to '/home/arsen/roarm_ws_em0/build/ros2web/install.log'
+[2.400s] Invoked command in '/home/arsen/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web' returned '0': PYTHONPATH=/home/arsen/roarm_ws_em0/build/ros2web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arsen/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2web build --build-base /home/arsen/roarm_ws_em0/build/ros2web/build install --record /home/arsen/roarm_ws_em0/build/ros2web/install.log --single-version-externally-managed install_data

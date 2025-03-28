@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-445bedab674691c570e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "roarm_moveit_cmd",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "getposecmd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getposecmd-Release-befbb32aab6d3f0350b1.json",
+					"name" : "getposecmd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getposecmd_tf2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getposecmd_tf2-Release-e567c8761fe3900b46a0.json",
+					"name" : "getposecmd_tf2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboardcontrol::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboardcontrol-Release-408983aa3fdb4b1c3063.json",
+					"name" : "keyboardcontrol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movecirclecmd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movecirclecmd-Release-3bb8fb53bb37a74aa148.json",
+					"name" : "movecirclecmd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "movepointcmd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-movepointcmd-Release-d79f1485d93d015caea9.json",
+					"name" : "movepointcmd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit_cmd_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit_cmd_uninstall-Release-add10493e07cb3682376.json",
+					"name" : "roarm_moveit_cmd_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "setgrippercmd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-setgrippercmd-Release-26dbd42ec6569181ac6a.json",
+					"name" : "setgrippercmd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c0e89ab2aaaa2cefedce.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webappcontrol::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webappcontrol-Release-60e77037a9fc91878fc0.json",
+					"name" : "webappcontrol",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arsen/roarm_ws_em0/build/roarm_moveit_cmd",
+		"source" : "/home/arsen/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

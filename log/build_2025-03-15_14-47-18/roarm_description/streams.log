@@ -1,0 +1,23 @@
+[0.028s] Invoking command in '/home/arsen/roarm_ws_em0/build/roarm_description': CMAKE_PREFIX_PATH=/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arsen/roarm_ws_em0/src/roarm_main/roarm_description -DCMAKE_INSTALL_PREFIX=/home/arsen/roarm_ws_em0/install/roarm_description
+[0.577s] -- The C compiler identification is GNU 11.4.0
+[0.577s] -- The CXX compiler identification is GNU 11.4.0
+[0.577s] -- Detecting C compiler ABI info
+[0.578s] -- Detecting C compiler ABI info - done
+[0.578s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.578s] -- Detecting C compile features
+[0.578s] -- Detecting C compile features - done
+[0.578s] -- Detecting CXX compiler ABI info
+[0.579s] -- Detecting CXX compiler ABI info - done
+[0.579s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.579s] -- Detecting CXX compile features
+[0.579s] -- Detecting CXX compile features - done
+[0.579s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.636s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.772s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.873s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.874s] -- Added test 'lint_cmake' to check CMake code style
+[0.875s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.876s] -- Added test 'xmllint' to check XML markup files
+[0.878s] -- Configuring done
+[0.881s] -- Generating done
+[0.882s] -- Build files have been written to: /home/arsen/roarm_ws_em0/build/roarm_description

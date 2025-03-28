@@ -1,0 +1,23 @@
+[0.040s] Invoking command in '/home/arsen/roarm_ws_em0/build/ros2web_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arsen/roarm_ws_em0/install/ros2web_widgets:/home/arsen/roarm_ws_em0/install/ros2web_example_py:/home/arsen/roarm_ws_em0/install/roarm_web_app:/home/arsen/roarm_ws_em0/install/ros2web_app:/home/arsen/roarm_ws_em0/install/ros2web:/home/arsen/roarm_ws_em0/install/roarm_driver:/home/arsen/roarm_ws_em0/install/launch_api:/home/arsen/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arsen/roarm_ws_em0/build/ros2web_interfaces -- -j8 -l8
+[0.723s] [  1%] Built target ros2web_interfaces__cpp
+[0.723s] [ 12%] Built target ros2web_interfaces__rosidl_generator_c
+[0.723s] [ 12%] Built target ament_cmake_python_copy_ros2web_interfaces
+[0.723s] [ 24%] Built target ros2web_interfaces__rosidl_typesupport_introspection_cpp
+[0.723s] [ 35%] Built target ros2web_interfaces__rosidl_typesupport_cpp
+[0.723s] [ 58%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.723s] [ 58%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c
+[0.723s] [ 70%] Built target ros2web_interfaces__rosidl_typesupport_c
+[0.723s] [ 81%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c
+[0.723s] [ 81%] Built target ros2web_interfaces
+[0.723s] [ 82%] Built target ros2web_interfaces__py
+[0.723s] [ 93%] Built target ros2web_interfaces__rosidl_generator_py
+[0.723s] [ 97%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.723s] [ 97%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.723s] [100%] Built target ros2web_interfaces__rosidl_typesupport_c__pyext
+[0.723s] running egg_info
+[0.723s] writing ros2web_interfaces.egg-info/PKG-INFO
+[0.723s] writing dependency_links to ros2web_interfaces.egg-info/dependency_links.txt
+[0.723s] writing top-level names to ros2web_interfaces.egg-info/top_level.txt
+[0.723s] reading manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[0.724s] writing manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[0.724s] [100%] Built target ament_cmake_python_build_ros2web_interfaces_egg
